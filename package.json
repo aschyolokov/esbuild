@@ -1,8 +1,6 @@
 {
-  "name": "esbuild_learning",
+  "name": "esbuild",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "start": "ts-node ./esbuild/configs/dev.config.ts",
     "build": "cross-env MODE=prod ts-node ./esbuild/configs/prod.config.ts"
